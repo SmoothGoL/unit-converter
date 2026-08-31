@@ -1,3 +1,40 @@
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('fonts/Inter-VariableFont.woff2') format('woff2');
+}
+
 body {
     margin: 0;
+    background: #1C1C1C;
+    text-align: center;
+}
+
+#main-div {
+    width: 550px;
+    margin: 0px auto;
+}
+
+#header {
+    background: #6943FF;
+    color: white;
+    padding: 33px 0 34px 0;
+}
+
+#input-el {
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    height: 83px;
+    width: 117px;
+    font-size: 58px;
+    font-weight: 800;
+    font-family: Inter, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#convert-btn {
 }
