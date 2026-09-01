@@ -10,17 +10,24 @@ body {
     margin: 0;
     background: #1C1C1C;
     text-align: center;
+    font-family: Inter, sans-serif;
 }
 
 #main-div {
     width: 550px;
-    margin: 0px auto;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 #header {
     background: #6943FF;
     color: white;
     padding: 33px 0 34px 0;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 2px 0 31px 0;
 }
 
 #input-el {
@@ -30,11 +37,57 @@ body {
     height: 83px;
     width: 117px;
     font-size: 58px;
-    font-weight: 800;
+    font-weight: 700;
     font-family: Inter, sans-serif;
     color: white;
     text-align: center;
 }
 
 #convert-btn {
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 26px;
+    background: white;
+    color: #3D3D3D;
+}
+
+#btn-text {
+    display: inline-block;
+    transform: translateY(1px);
+}
+
+#convert-btn:active {
+    width: 115px;
+    height: 40px;
+    margin: 27px 0 1px 0;
+    font-size: 16.5px;
+}
+
+#results-container {
+    background: #F3F4F6;
+    padding: 14px 25px 35px 25px;
+}
+
+.result {
+    background: white;
+    padding: 15px 0 10px 0;
+    margin-top: 23px;
+}
+
+.result > h2 {
+    font-weight: 500;
+    color: #5A537B;
+    font-size: 20px;
+    margin: 13px 0 0 0;
+}
+
+p {
+    height: 20px;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 300;
 }
